@@ -1,0 +1,196 @@
+.custom-nav {
+  padding: 12px 0px;
+  width: 100%;
+  border-radius: 0px;
+  z-index: 999;
+  margin-bottom: 0px;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+}
+
+.custom-nav.stickyadd {
+  background-color: #fff;
+  padding: 8px 0;
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+}
+
+.custom-nav .navbar-nav li a {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 16px;
+  background-color: transparent !important;
+  padding: 15px 0;
+  position: relative;
+  margin: 0 7px;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+
+.custom-nav .navbar-nav li.active a {
+  color: #000 !important;
+}
+
+.custom-nav .navbar-nav li.active a:before,
+.custom-nav .navbar-nav li:hover a:before,
+.custom-nav .navbar-nav li:active a:before,
+.custom-nav.stickyadd .navbar-nav li.active a:before,
+.custom-nav.stickyadd .navbar-nav li:hover a:before,
+.custom-nav.stickyadd .navbar-nav li:active a:before {
+  opacity: 1;
+}
+
+.custom-nav .navbar-nav li a:before,
+.custom-nav.stickyadd .navbar-nav li a:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  height: 6px;
+  width: 6px;
+  background: #000;
+  border-radius: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.custom-nav.stickyadd .navbar-nav li a:before {
+  background: #000 !important;
+}
+
+.navbar-toggler {
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.custom-nav.stickyadd .navbar-nav li a {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.custom-nav .navbar-brand.logo img {
+  height: 28px;
+}
+
+.experience-main {
+  width: 100vw;
+}
+
+.basic-experience {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8em;
+}
+
+.experience-heading-div {
+  display: flex;
+}
+
+.experience-heading-div > * {
+  flex: 1;
+}
+
+.experience-heading-img-div {
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-heading-text-div {
+  text-align: center;
+}
+
+.experience-heading-img-div > * {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.experience-heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.experience-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+.experience-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+
+@media (max-width: 1380px) {
+  .experience-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+  .experience-heading-sub-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-nav {
+    margin-top: 0px;
+    padding: 10px 0px !important;
+    background-color: #fff !important;
+  }
+  .custom-nav .navbar-nav li a:before {
+    content: "";
+    display: none;
+  }
+  .custom-nav .navbar-nav li a {
+    margin: 0 0px;
+    padding: 6px 0;
+    color: rgba(0, 0, 0, 0.55) !important;
+  }
+  .custom-nav .navbar-nav li.active a {
+    color: #000 !important;
+  }
+  .custom-nav > .container {
+    width: 90%;
+  }
+  .navbar-toggler {
+    font-size: 29px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000;
+}  
+  .experience-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .experience-heading-sub-text {
+    font-size: 20px;
+  }
+
+  .experience-heading-div {
+    flex-direction: column;
+  }
+
+  .experience-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+}
