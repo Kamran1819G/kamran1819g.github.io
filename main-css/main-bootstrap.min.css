@@ -4070,9 +4070,7 @@ input[type="submit"].btn-block {
   flex: 1 1 auto;
   padding: 1.25rem;
 }
-.card-title {
-  margin-bottom: 0.75rem;
-}
+
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0;
@@ -4124,20 +4122,7 @@ input[type="submit"].btn-block {
   left: 0;
   padding: 1.25rem;
 }
-.card-img {
-  width: 100%;
-  border-radius: calc(0.25rem - 1px);
-}
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-.card-img-bottom {
-  width: 100%;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
-}
+
 .card-deck {
   display: -ms-flexbox;
   display: flex;

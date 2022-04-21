@@ -179,17 +179,17 @@
 }
 
 .card-title {
-  font-family: "Google Sans Medium";
-  font-size: 23px;
-  /* color: #000000; */
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .card-subtitle {
-  font-family: "Google Sans Medium";
+  font-family: "Montserrat";
   font-size: 18px;
+  font-weight: 700;
   /* color: #000000; */
-  margin-top: 7px;
-  margin-bottom: 5px;
+  padding: 8px 0px 0px;
 }
 
 .card-img {
@@ -221,9 +221,9 @@
   width: 20%;
 }
 .duration {
-  font-family: "Google Sans Regular";
+  font-family: "Montserrat";
   font-size: 16px;
-  /* color: #212121; */
+  font-weight: 700;
   padding-right: 10px;
   float: right;
 }
@@ -239,9 +239,11 @@
 }
 
 .content-list {
+  color: #868e96;
+  font-size: 19px;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: "Google Sans Regular";
+  font-family: "Montserrat";
 }
 
 .card-body {
@@ -255,19 +257,6 @@
   box-shadow: 5px 5px 5px #d9dbdf;
 }
 
-.visit-btn {
-  /* background-color: #6c63ff99; */
-  display: inline-block;
-  margin: 0px 10px 10px 0px;
-  padding: 10px;
-  border-radius: 7px;
-  border: 0px;
-  float: right;
-}
-
-.visit-btn:hover {
-  /* background-color:#6c63ffcc; */
-}
 
 .btn {
   margin: 0px;
@@ -347,7 +336,7 @@
 }
 
 .cert-card {
-  width: 30%;
+  width: 33%;
   display: inline-block;
   justify-content: center;
   align-items: center;
