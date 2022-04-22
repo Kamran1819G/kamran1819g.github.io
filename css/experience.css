@@ -88,7 +88,7 @@
   display: flex;
 }
 
-.experience-heading-div > * {
+.experience-heading-div>* {
   flex: 1;
 }
 
@@ -101,7 +101,7 @@
   text-align: center;
 }
 
-.experience-heading-img-div > * {
+.experience-heading-img-div>* {
   max-width: 100%;
   height: auto;
 }
@@ -136,12 +136,130 @@
   font-weight: 400;
 }
 
+.experience-container {
+  font-size: 19px;
+  margin: 32px 57.4531px 0px;
+  padding: 20px 10px;
+}
+
+.experience-heading {
+  font-family: "Montserrat";
+  font-size: 40px;
+  margin: 26.8px 0px;
+}
+
+.experience-cards-div {
+  display: flex;
+  font-size: 19px;
+  gap: 16px;
+  grid-template-columns: 394.031px 394.031px 394.031px 0px;
+  grid-template-rows: 572px;
+}
+
+.experience-card {
+  display: grid;
+  position: relative;
+  box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  border: 1px solid hsla(0, 0%, 82.7%, .397);
+  background-color: #fff;
+}
+
+.experience-banner {
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.experience-blurred-div {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2));
+  filter: blur(5px);
+  height: 11rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.experience-div-company {
+  position: absolute;
+  background: transparent;
+  height: 9rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-text-company {
+  padding: 1.5rem;
+  margin: 0;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.experience-roundedimg {
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 30%);
+  border-radius: 50%;
+}
+
+.experience-text-details {
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.experience-text-role {
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0;
+  padding-top: 1.5rem;
+  line-height: normal;
+}
+
+.experience-text-date {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 1rem;
+  font-weight: 600;
+}
+
+.experience-text-desc {
+  text-align: center;
+}
+
+.subTitle {
+  color: #868e96 !important;
+}
 
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;
     margin-top: 80px;
   }
+
   .experience-heading-sub-text {
     font-size: 25px;
   }
@@ -153,27 +271,33 @@
     padding: 10px 0px !important;
     background-color: #fff !important;
   }
+
   .custom-nav .navbar-nav li a:before {
     content: "";
     display: none;
   }
+
   .custom-nav .navbar-nav li a {
     margin: 0 0px;
     padding: 6px 0;
     color: rgba(0, 0, 0, 0.55) !important;
   }
+
   .custom-nav .navbar-nav li.active a {
     color: #000 !important;
   }
-  .custom-nav > .container {
+
+  .custom-nav>.container {
     width: 90%;
   }
+
   .navbar-toggler {
     font-size: 29px;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #000;
-}  
+  }
+
   .experience-heading-text {
     font-size: 30px;
     margin-top: 20px;
