@@ -36,7 +36,7 @@
 
     <!-- Custom style Css -->
     <link rel="stylesheet" href="css/main-style.css" />
-    <link rel="stylesheet" href="main-css/main-bootstrap.min.css"/>
+    <link rel="stylesheet" href="main-css/main-bootstrap.min.css" />
   </head>
 
   <body>
@@ -44,7 +44,7 @@
     <!-- START LOADER -->
     <div class="loader_bg">
       <div class="loader">
-        <h1>Hey, Thanks for coming</h1>
+        <h1>print("Hello World! 🌏")</h1>
       </div>
     </div>
     <!-- END LOADER -->
@@ -52,36 +52,48 @@
       <!-- START NAVBAR -->
       <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
         <div class="container">
-        <!-- LOGO -->
-            <a class="navbar-brand logo" href="index.html">
-                  <img src="./assets/images/logo dark.png" alt="Logo" class="img-fluid logo-dark"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                          <i class="mdi mdi-menu"></i>
-                        </button>
-                            <div class="collapse navbar-collapse" id="navbarCollapse">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item active">
-                                        <a href="index.html" class="nav-link">Intro</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="education.html" class="nav-link">Education</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="experience.html" class="nav-link">Experience</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="project.html" class="nav-link">Projects</a>
-                                    </li>
-                                    
-                                    <li class="nav-item">
-                                        <a href="opensource.html" class="nav-link">Open Source</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="contact.html" class="nav-link">Contact Me</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+          <!-- LOGO -->
+          <a class="navbar-brand logo" href="index.html">
+            <img
+              src="./assets/images/logo dark.png"
+              alt="Logo"
+              class="img-fluid logo-dark"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="mdi mdi-menu"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="index.html" class="nav-link">Intro</a>
+              </li>
+              <li class="nav-item">
+                <a href="education.html" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="experience.html" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="project.html" class="nav-link">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="opensource.html" class="nav-link">Open Source</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <!-- END NAVBAR -->
 
@@ -92,12 +104,13 @@
             <div class="container position-relative z-index">
               <div class="row justify-content-center">
                 <div class="col-lg-12">
-                  <div class="text-center">
+                  <div class="text-center" style="cursor: grab">
                     <h4>Hello & Welcome</h4>
                     <h1 class="header_title mb-0 mt-3">
                       I Am
                       <span class="simple-text-rotate font-weight-bold">
-                        Kamran Khan., Web Developer., C++ | Java | Python Programmer.</span
+                        Kamran Khan., Web Developer., C++ | Java | Python
+                        Programmer.</span
                       >
                     </h1>
                     <ul class="social_home list-unstyled text-center pt-4">
@@ -125,7 +138,7 @@
                     <div class="header_btn">
                       <a
                         href="#"
-                        class="btn btn-outline-custom btn-rounded mt-4"
+                        class="btn btn-outline-custom mt-4"
                         >Go to the Portfolio</a
                       >
                     </div>
@@ -137,7 +150,7 @@
         </div>
         <div class="scroll_down">
           <a href="#skills" class="scroll">
-            <i class="mbri-arrow-down text-white"></i>
+            <i class="mbri-arrow-down"></i>
           </a>
         </div>
       </section>
@@ -2915,7 +2928,7 @@
       </div>
     </section>
     <!-- END FOOTER -->
-
+    <div id="cursor"></div>
     <!-- JAVASCRIPTS -->
     <script src="main-js/main-jquery.min.js"></script>
     <script src="main-js/main-bootstrap.min.js"></script>
@@ -2931,10 +2944,11 @@
     <script src="main-js/main-particles.app.js"></script>
     <!--CUSTOM JS-->
     <script src="main-js/main-custom.js"></script>
+    <script src="main-js/main-javascript.js"></script>
     <script>
       $(".simple-text-rotate").textrotator({
         animation: "fade",
-        speed: 3500,
+        speed: 4000,
       });
     </script>
     <!--Loader Script-->
