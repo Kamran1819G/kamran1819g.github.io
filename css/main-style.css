@@ -55,6 +55,11 @@ div:hover ~ #cursor {
   position: absolute;
   top: 280px;
   right: -30px;
+  background: radial-gradient(
+    circle at 100px 100px,
+    var(--primary-color),
+    rgb(99, 99, 99)
+  );
   background-color: var(--primary-color);
   width: 300px;
   height: 300px;
@@ -69,6 +74,11 @@ div:hover ~ #cursor {
   position: absolute;
   top: 70px;
   left: -100px;
+  background: radial-gradient(
+    circle at 100px 100px,
+    var(--primary-color),
+    rgb(99, 99, 99)
+  );
   background-color: var(--primary-color);
   width: 300px;
   height: 300px;
@@ -574,7 +584,6 @@ button:focus {
 .skills-image-div > * {
   max-width: 100%;
   height: auto;
-  margin-top: 100px;
 }
 
 .skills-heading {
