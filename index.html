@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TNK22ZZBD5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TNK22ZZBD5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-TNK22ZZBD5');
-</script>
+      gtag("config", "G-TNK22ZZBD5");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kamran Khan Portfolio</title>
@@ -18,9 +23,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="kamran1819g.github.io/" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!--Bootstrap Css-->
-    <link rel="stylesheet" href="main-css/main-bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
 
     <!-- Materialdesign icons Css -->
     <link rel="stylesheet" href="main-css/main-materialdesignicons.min.css" />
@@ -33,6 +36,7 @@
 
     <!-- Custom style Css -->
     <link rel="stylesheet" href="css/main-style.css" />
+    <link rel="stylesheet" href="main-css/main-bootstrap.min.css"/>
   </head>
 
   <body>
@@ -41,120 +45,111 @@
     <div class="loader_bg">
       <div class="loader">
         <h1>Hello, my name is Kamran.</h1>
-        <p class="subtitle"> Welcome to my website!</p>
+        <p class="subtitle">Welcome to my website!</p>
       </div>
     </div>
     <!-- END LOADER -->
-
-    <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
-      <div class="container">
+    <header id="hero">
+      <!-- START NAVBAR -->
+      <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+        <div class="container">
         <!-- LOGO -->
-        <a class="navbar-brand logo" href="index.html">
-          <img src="./assets/images/logo light.png" alt="" class="img-fluid logo-light" />
-          <img src="./assets/images/logo dark.png" alt="KamranKhanLogo" class="img-fluid logo-dark" />
-        </a>
+            <a class="navbar-brand logo" href="index.html">
+                  <img src="./assets/images/logo dark.png" alt="Logo" class="img-fluid logo-dark"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="mdi mdi-menu"></i>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarCollapse">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a href="index.html" class="nav-link">Intro</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="education.html" class="nav-link">Education</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="experience.html" class="nav-link">Experience</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="project.html" class="nav-link">Projects</a>
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a href="opensource.html" class="nav-link">Open Source</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="contact.html" class="nav-link">Contact Me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+      </nav>
+      <!-- END NAVBAR -->
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-          aria-controls="navbarCollapse"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="index.html" class="nav-link">Intro</a>
-            </li>
-            <li class="nav-item">
-              <a href="education.html" class="nav-link">Education</a>
-            </li>
-            <li class="nav-item">
-              <a href="experience.html" class="nav-link">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a href="project.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="opensource.html" class="nav-link">Open Source</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- END NAVBAR -->
-
-    <!--START HOME-->
-    <section class="home-bg section h-100vh" id="home">
-      <div class="bg-overlay"></div>
-      <div class="home-table">
-        <div class="home-table-center">
-          <div class="container position-relative z-index">
-            <div class="row justify-content-center">
-              <div class="col-lg-12">
-                <div class="text-white text-center">
-                  <h4>Hello & Welcome</h4>
-                  <h1 class="header_title mb-0 mt-3">
-                    I Am
-                    <span class="simple-text-rotate font-weight-bold">
-                      Kamran Khan.,C++ Programmer., Web Developer.</span
-                    >
-                  </h1>
-                  <ul class="social_home list-unstyled text-center pt-4">
-                    <li class="list-inline-item">
-                      <a href="https://github.com/kamran1819g"
-                        ><i class="mdi mdi-github-circle"></i
-                      ></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/kamran1819g"
-                        ><i class="mdi mdi-linkedin"></i
-                      ></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="https://www.instagram.com/kamran1819g"
-                        ><i class="mdi mdi-instagram"></i
-                      ></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="https://www.facebook.com/kamran1819g"
-                        ><i class="mdi mdi-facebook"></i
-                      ></a>
-                    </li>
-                  </ul>
-                  <div class="header_btn">
-                    <a href="#" class="btn btn-outline-custom btn-rounded mt-4"
-                      >Go to the Portfolio</a
-                    >
+      <!--START HOME-->
+      <section class="section h-100vh" id="home">
+        <div class="home-table">
+          <div class="home-table-center">
+            <div class="container position-relative z-index">
+              <div class="row justify-content-center">
+                <div class="col-lg-12">
+                  <div class="text-center">
+                    <h4>Hello & Welcome</h4>
+                    <h1 class="header_title mb-0 mt-3">
+                      I Am
+                      <span class="simple-text-rotate font-weight-bold">
+                        Kamran Khan., Web Developer., C++ | Java | Python Programmer.</span
+                      >
+                    </h1>
+                    <ul class="social_home list-unstyled text-center pt-4">
+                      <li class="list-inline-item">
+                        <a href="https://github.com/kamran1819g"
+                          ><i class="mdi mdi-github-circle"></i
+                        ></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/kamran1819g"
+                          ><i class="mdi mdi-linkedin"></i
+                        ></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/kamran1819g"
+                          ><i class="mdi mdi-instagram"></i
+                        ></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.facebook.com/kamran1819g"
+                          ><i class="mdi mdi-facebook"></i
+                        ></a>
+                      </li>
+                    </ul>
+                    <div class="header_btn">
+                      <a
+                        href="#"
+                        class="btn btn-outline-custom btn-rounded mt-4"
+                        >Go to the Portfolio</a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="scroll_down">
-        <a href="#skills" class="scroll">
-          <i class="mbri-arrow-down text-white"></i>
-        </a>
-      </div>
-    </section>
+        <div class="scroll_down">
+          <a href="#skills" class="scroll">
+            <i class="mbri-arrow-down text-white"></i>
+          </a>
+        </div>
+      </section>
+    </header>
     <!--END HOME-->
 
     <!--START SKILLS -->
     <section>
       <div class="main" id="skills">
         <div class="skills-header-div">
-          <h1
-            class="skills-header"
-            style="color:  rgb(0, 28, 85);">
+          <h1 class="skills-header" style="color: rgb(0, 28, 85)">
             What I Do?
           </h1>
         </div>
@@ -503,10 +498,7 @@
               </svg>
             </div>
             <div class="skills-text-div" data-aos="zoom-in">
-              <h1
-                class="skills-heading">
-                Data Science &amp; AI
-              </h1>
+              <h1 class="skills-heading">Data Science &amp; AI</h1>
               <div>
                 <div>
                   <div class="software-skills-main-div" data-aos="fade-up">
@@ -638,19 +630,28 @@
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quod quidem eaque aspernatur earum tempore numquam magni veniam eum explicabo, impedit at perspiciatis error officiis voluptatem totam omnis assumenda mollitia!
+                  ⚡ Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Corrupti quod quidem eaque aspernatur earum tempore numquam
+                  magni veniam eum explicabo, impedit at perspiciatis error
+                  officiis voluptatem totam omnis assumenda mollitia!
                 </p>
                 <p
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis rem assumenda recusandae deserunt ut illum distinctio tempora minima veritatis! Eius, repudiandae suscipit! Earum enim harum ex ad quia repellat? In?
+                  ⚡ Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Omnis rem assumenda recusandae deserunt ut illum distinctio
+                  tempora minima veritatis! Eius, repudiandae suscipit! Earum
+                  enim harum ex ad quia repellat? In?
                 </p>
                 <p
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, beatae error sequi rerum eligendi commodi sunt sit debitis magnam tempora iste, autem exercitationem, consequatur aperiam deleniti voluptas quia! Porro, voluptatibus.
+                  ⚡ Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, beatae error sequi rerum eligendi commodi sunt sit
+                  debitis magnam tempora iste, autem exercitationem, consequatur
+                  aperiam deleniti voluptas quia! Porro, voluptatibus.
                 </p>
               </div>
             </div>
@@ -923,11 +924,7 @@
               </svg>
             </div>
             <div class="skills-text-div" data-aos="zoom-in">
-              <h1
-                class="skills-heading"
-              >
-                Full Stack Development
-              </h1>
+              <h1 class="skills-heading">Full Stack Development</h1>
               <div>
                 <div>
                   <div class="software-skills-main-div" data-aos="fade-up">
@@ -1150,13 +1147,15 @@
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications
+                  ⚡ Develop highly interactive Front end / User Interfaces for
+                  your web and mobile applications
                 </p>
                 <p
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin
+                  ⚡ Developing mobile applications using Flutter, React Native
+                  and solo android apps using Kotlin
                 </p>
                 <p
                   class="subTitle skills-text"
@@ -1482,17 +1481,38 @@
               </svg>
             </div>
             <div class="skills-text-div" data-aos="zoom-in">
-              <h1
-                class="skills-heading"
-              >
-                Cloud Infra-Architecture
-              </h1>
+              <h1 class="skills-heading">Cloud Infra-Architecture</h1>
               <div>
                 <div>
                   <div class="software-skills-main-div" data-aos="fade-up">
                     <ul class="dev-icons">
                       <li class="software-skill-inline" name="GCP">
-                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.25em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 206"><path fill="#EA4335" d="m170.252 56.819l22.253-22.253l1.483-9.37C153.437-11.677 88.976-7.496 52.42 33.92C42.267 45.423 34.734 59.764 30.717 74.573l7.97-1.123l44.505-7.34l3.436-3.513c19.797-21.742 53.27-24.667 76.128-6.168l7.496.39Z"/><path fill="#4285F4" d="M224.205 73.918a100.249 100.249 0 0 0-30.217-48.722l-31.232 31.232a55.515 55.515 0 0 1 20.379 44.037v5.544c15.35 0 27.797 12.445 27.797 27.796c0 15.352-12.446 27.485-27.797 27.485h-55.671l-5.466 5.934v33.34l5.466 5.231h55.67c39.93.311 72.553-31.494 72.864-71.424a72.303 72.303 0 0 0-31.793-60.453"/><path fill="#34A853" d="M71.87 205.796h55.593V161.29H71.87a27.275 27.275 0 0 1-11.399-2.498l-7.887 2.42l-22.409 22.253l-1.952 7.574c12.567 9.489 27.9 14.825 43.647 14.757"/><path fill="#FBBC05" d="M71.87 61.425C31.94 61.664-.237 94.228.001 134.159a72.301 72.301 0 0 0 28.222 56.88l32.248-32.246c-13.99-6.322-20.208-22.786-13.887-36.776c6.32-13.99 22.786-20.208 36.775-13.888a27.796 27.796 0 0 1 13.887 13.888l32.248-32.248A72.224 72.224 0 0 0 71.87 61.425"/></svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true"
+                          role="img"
+                          width="1.25em"
+                          height="1em"
+                          preserveAspectRatio="xMidYMid meet"
+                          viewBox="0 0 256 206"
+                        >
+                          <path
+                            fill="#EA4335"
+                            d="m170.252 56.819l22.253-22.253l1.483-9.37C153.437-11.677 88.976-7.496 52.42 33.92C42.267 45.423 34.734 59.764 30.717 74.573l7.97-1.123l44.505-7.34l3.436-3.513c19.797-21.742 53.27-24.667 76.128-6.168l7.496.39Z"
+                          />
+                          <path
+                            fill="#4285F4"
+                            d="M224.205 73.918a100.249 100.249 0 0 0-30.217-48.722l-31.232 31.232a55.515 55.515 0 0 1 20.379 44.037v5.544c15.35 0 27.797 12.445 27.797 27.796c0 15.352-12.446 27.485-27.797 27.485h-55.671l-5.466 5.934v33.34l5.466 5.231h55.67c39.93.311 72.553-31.494 72.864-71.424a72.303 72.303 0 0 0-31.793-60.453"
+                          />
+                          <path
+                            fill="#34A853"
+                            d="M71.87 205.796h55.593V161.29H71.87a27.275 27.275 0 0 1-11.399-2.498l-7.887 2.42l-22.409 22.253l-1.952 7.574c12.567 9.489 27.9 14.825 43.647 14.757"
+                          />
+                          <path
+                            fill="#FBBC05"
+                            d="M71.87 61.425C31.94 61.664-.237 94.228.001 134.159a72.301 72.301 0 0 0 28.222 56.88l32.248-32.246c-13.99-6.322-20.208-22.786-13.887-36.776c6.32-13.99 22.786-20.208 36.775-13.888a27.796 27.796 0 0 1 13.887 13.888l32.248-32.248A72.224 72.224 0 0 0 71.87 61.425"
+                          />
+                        </svg>
                       </li>
                       <li class="software-skill-inline" name="AWS">
                         <svg
@@ -1665,19 +1685,22 @@
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases
+                  ⚡ Hosting and maintaining websites on virtual machine
+                  instances along with integration of databases
                 </p>
                 <p
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Deploying deep learning models on cloud to use on mobile devices
+                  ⚡ Deploying deep learning models on cloud to use on mobile
+                  devices
                 </p>
                 <p
                   class="subTitle skills-text"
                   style="color: rgb(127, 141, 170)"
                 >
-                  ⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS
+                  ⚡ Setting up streaming jobs from DB to Server or vice-versa
+                  on GCP and AWS
                 </p>
               </div>
             </div>
@@ -2701,11 +2724,7 @@
               </svg>
             </div>
             <div class="skills-text-div" data-aos="zoom-in">
-              <h1
-                class="skills-heading"
-              >
-                UI/UX Design
-              </h1>
+              <h1 class="skills-heading">UI/UX Design</h1>
               <div>
                 <div>
                   <div class="software-skills-main-div" data-aos="fade-up">
@@ -2920,16 +2939,16 @@
       });
     </script>
     <!--Loader Script-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-     <script>
-     setTimeout(function(){
-     $('.loader_bg').fadeToggle();
-     }, 5000);
-     </script>
-     <!--AOS Script-->     
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      setTimeout(function () {
+        $(".loader_bg").fadeToggle();
+      }, 5000);
+    </script>
+    <!--AOS Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
