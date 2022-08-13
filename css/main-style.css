@@ -827,7 +827,10 @@ button:focus {
     height: 26px;
   }
   .navbar-nav {
-    margin-top: 0px;
+    padding-top: 15px;
+  }
+  .navbar-nav .nav-item {
+    padding: 5px;
   }
   .navbar-toggler {
     font-size: 29px;
