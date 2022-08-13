@@ -143,32 +143,6 @@
 }
 
 @media (max-width: 768px) {
-  .custom-nav {
-    margin-top: 0px;
-    padding: 10px 0px !important;
-    background-color: #fff !important;
-  }
-  .custom-nav .navbar-nav li a:before {
-    content: "";
-    display: none;
-  }
-  .custom-nav .navbar-nav li a {
-    margin: 0 0px;
-    padding: 6px 0;
-    color: rgba(0, 0, 0, 0.55) !important;
-  }
-  .custom-nav .navbar-nav li.active a {
-    color: #000 !important;
-  }
-  .custom-nav > .container {
-    width: 90%;
-  }
-  .navbar-toggler {
-    font-size: 29px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    color: #000;
-  }
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;
