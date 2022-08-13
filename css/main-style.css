@@ -128,16 +128,6 @@ body {
   animation: typewriter 2s steps(26) 1s forwards, blink 750ms steps(26) infinite;
 }
 
-.loader .subtitle {
-  text-align: center;
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 400;
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeInUp 2s ease 3s forwards;
-}
-
 @keyframes typewriter {
   to {
     left: 100%;
@@ -468,7 +458,7 @@ button:focus {
   text-align: center;
 }
 .custom-nav .navbar-nav li a {
-  color: rgba(0, 0, 0, 0.55);
+  color: var(--primary-color);
   font-size: 16px;
   background-color: transparent !important;
   padding: 15px 0;
@@ -520,7 +510,7 @@ button:focus {
 }
 
 .custom-nav.stickyadd .navbar-nav li a {
-  color: rgba(0, 0, 0, 0.55);
+  color: var(--primary-color);
 }
 
 .custom-nav .navbar-brand.logo img {
@@ -567,6 +557,13 @@ button:focus {
   display: inline-block;
   width: 30px;
   text-align: center;
+  color: var(--primary-color);
+}
+
+.header_btn a {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 1rem;
 }
 
 .scroll_down {
@@ -580,6 +577,7 @@ button:focus {
 }
 
 .scroll_down i {
+  padding-top: 15px;
   position: relative;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
@@ -587,9 +585,9 @@ button:focus {
   width: 30px;
   line-height: 60px;
   border-radius: 30px;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--primary-color);
   display: inline-block;
-  color: #fff;
+  color: var(--primary-color);
   font-size: 12px;
 }
 
@@ -811,7 +809,7 @@ button:focus {
   .custom-nav .navbar-nav li a {
     margin: 0 0px;
     padding: 6px 0;
-    color: rgba(0, 0, 0, 0.55) !important;
+    color: var(--primary-color) !important;
   }
   .custom-nav .navbar-nav li.active a {
     color: #000 !important;
