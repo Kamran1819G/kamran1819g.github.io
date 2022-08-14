@@ -470,11 +470,15 @@ button:focus {
 }
 
 .social_home li a {
-  font-size: 18px;
+  font-size: 30px;
   display: inline-block;
-  width: 30px;
+  width: 35px;
   text-align: center;
   color: var(--primary-color);
+}
+
+.social_home li a :hover {
+  color: #fff;
 }
 
 .header_btn a {
