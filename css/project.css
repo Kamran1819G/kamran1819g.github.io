@@ -63,13 +63,20 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
-
+.github-header {
+  margin-top: 3em;
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
 .repo-card {
   color: #586069;
   background-color: #fff;
   box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
-  padding: 2rem;
+  padding: 1rem;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
 @media (max-width: 1380px) {
