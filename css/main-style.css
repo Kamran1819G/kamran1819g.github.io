@@ -542,6 +542,13 @@ button:focus {
   font-family: "Google Sans Regular";
   text-align: center;
   margin-top: 1em;
+  margin-bottom: 2em;
+}
+.skills-header a {
+  background-color: var(--secondary-color);
+  color: #fff !important;
+  border-radius: 1rem;
+  padding: 6px;
 }
 
 .skills-text {
@@ -567,8 +574,15 @@ button:focus {
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Regular";
+  margin-bottom: 40px;
 }
 
+.skills-heading a {
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+  padding: 7px;
+  color: white !important;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
