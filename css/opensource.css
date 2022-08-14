@@ -16,32 +16,48 @@
 .dev-icons-orgs {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
   margin: 50px 50px 0;
   text-align: center;
 }
 .organizations-img {
   width: 100px;
   height: auto;
+  border-radius: 50%;
 }
 .organizations-inline {
   display: inline-block;
+  position: relative;
+  cursor: pointer;
   margin-right: 50px;
   margin-bottom: 50px;
   font-family: Google Sans Regular;
 }
-
-.organizations-inline:hover a {
-  visibility: visible;
-}
-.organizations-inline a {
-  visibility: hidden;
+.organizations-inline span {
   position: absolute;
-  font-family: "Courier New", Courier, monospace;
-  width: 100px;
-  bottom: 75%;
-  font-size: 25px;
-  left: 0;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  white-space: nowrap;
+  padding: 10px 15px;
+  border-radius: 7px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+}
+.organizations-inline span::before {
+  content: "";
+  display: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+}
+.organizations-inline:hover span {
+  top: -25%;
+  visibility: visible;
+  opacity: 1;
 }
 @media (max-width: 1380px) {
   .organizations-header {
