@@ -1,8 +1,9 @@
-.opensource-main {
-  width: 100%;
-}
 .organizations {
+  height: 100vh;
+}
+.opensource-main {
   margin-top: 6em;
+  width: 100%;
 }
 .organizations-header {
   font-size: 40px;
