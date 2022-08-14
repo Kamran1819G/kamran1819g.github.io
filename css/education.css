@@ -288,6 +288,7 @@
 }
 
 .cert-body-title {
+  color: rgb(0, 28, 85);
   font-family: "Google Sans Regular";
   font-size: 20px;
   margin: 10px;
@@ -343,6 +344,12 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
+.content-title a {
+  color: #fff;
+}
+.content-title a:hover {
+  color: #fff;
+}
 .content:hover .content-details {
   top: 50%;
   left: 50%;
@@ -351,11 +358,10 @@
 
 .content-details h3 {
   color: #fff;
-  font-weight: 500;
-  font-family: "Google Sans Regular";
-  letter-spacing: 0.15em;
+  font-weight: 400;
+  font-family: inherit;
   margin-bottom: 0.5em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .fadeIn-top {

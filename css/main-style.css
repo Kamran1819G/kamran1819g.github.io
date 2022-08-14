@@ -477,7 +477,7 @@ button:focus {
   color: var(--primary-color);
 }
 
-.social_home li a :hover {
+.social_home li a:hover {
   color: #fff;
 }
 
