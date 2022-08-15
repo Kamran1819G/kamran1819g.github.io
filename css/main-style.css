@@ -497,7 +497,7 @@ button:focus {
   z-index: 8;
 }
 
-.scroll_down i {
+.scroll_down span {
   position: relative;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
@@ -512,12 +512,12 @@ button:focus {
   font-weight: bold;
 }
 
-.scroll_down i:hover {
+.scroll_down span:hover {
   border: 2px solid #fff;
   color: #fff;
 }
 
-.scroll_down i:after {
+.scroll_down span:after {
   content: "";
   position: absolute;
   top: 0;

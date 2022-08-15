@@ -118,9 +118,9 @@
 }
 
 .card-img {
-  width: 200px;
+  width: 200px !important;
   height: auto;
-  border-radius: 50%;
+  border-radius: 50% !important;
   padding: 10px;
   border: 1px solid #d9dbdf;
   /* background-color: #6c63ff; */
@@ -218,7 +218,7 @@
   }
 
   .card-img {
-    width: 200px;
+    width: 200px !important;
   }
 
   .card-body {
