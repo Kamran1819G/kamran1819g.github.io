@@ -38,11 +38,11 @@
   left: 50%;
   top: 0%;
   transform: translateX(-50%);
-  background-color: #000;
+  background-color: #7360ff;
   color: #fff;
   white-space: nowrap;
-  padding: 10px 15px;
-  border-radius: 7px;
+  padding: 5px 7px;
+  border-radius: 1rem;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -52,11 +52,10 @@
   content: "";
   display: absolute;
   left: 50%;
-  top: 100%;
   transform: translateX(-50%);
 }
 .organizations-inline:hover span {
-  top: -25%;
+  top: -30%;
   visibility: visible;
   opacity: 1;
 }
