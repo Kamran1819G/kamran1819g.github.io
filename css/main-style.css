@@ -362,7 +362,7 @@ button:focus {
   bottom: 10%;
   height: 6px;
   width: 6px;
-  background: #000;
+  background: #fff;
   border-radius: 50%;
   opacity: 0;
   transform: translateX(-50%);
@@ -372,7 +372,7 @@ button:focus {
 }
 
 .custom-nav.stickyadd .navbar-nav li a:before {
-  background: #000 !important;
+  background: #fff !important;
 }
 
 .navbar-toggler {

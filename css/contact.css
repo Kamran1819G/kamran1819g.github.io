@@ -2,6 +2,7 @@
 
 .contact-main {
   width: 100vw;
+  height: 100vh;
 }
 
 .basic-contact {
@@ -46,14 +47,8 @@
   justify-content: center;
 }
 
-.contact-heading-text-div {
-  text-align: center;
-}
-
-.blog-heading-text-div {
-  text-align: center;
-}
-
+.contact-heading-text-div,
+.blog-heading-text-div,
 .address-heading-text-div {
   text-align: center;
 }
@@ -68,29 +63,15 @@
   height: auto;
 }
 
-.contact-heading-text {
+.contact-heading-text,
+.blog-heading-text,
+.address-heading-text {
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
   margin-top: 60px;
-}
-
-.blog-heading-text {
-  font-size: 56px;
-  font-weight: 400;
-  font-family: "Google Sans Medium";
-  line-height: 1.1;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.address-heading-text {
-  font-size: 30px;
-  font-family: "Google Sans Regular";
-  text-align: center;
-  margin-bottom: 10px;
 }
 
 .contact-header-detail-text {
@@ -111,31 +92,12 @@
   font-family: "Google Sans Medium";
 }
 
-.resume-btn-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.blogsite-btn-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
+.resume-btn-div,
+.blogsite-btn-div,
 .address-btn-div {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 0px;
-}
-.address-btn-div a:hover,
-.resume-btn-div a:hover,
-.blogsite-btn-div a:hover {
-  color: #7360ff;
-}
-.main-button:hover {
-  background-color: #fff;
 }
 
 .main-button {
@@ -149,7 +111,7 @@
   width: max-content;
   padding: 13px 22px;
   margin-right: 0;
-  border-radius: 6px;
+  border-radius: 1rem;
   text-align: center;
   text-decoration: none;
   font-family: Google Sans Regular;
@@ -158,6 +120,9 @@
   font-size: 18px;
   cursor: pointer;
   letter-spacing: 2px;
+}
+.main-button:hover {
+  background-color: #fff;
 }
 
 @media (max-width: 1380px) {
@@ -184,7 +149,8 @@
   }
 
   .address-heading-text {
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: 0px;
   }
 
   .blog-heading-div {
